@@ -1,0 +1,48 @@
+<%- include('partials/header') %>
+
+
+<div class="Main">
+    <div class="Box"></div>
+    <div class="Page">
+        <div class="overlap"> <%- include('partials/nav') %>
+
+
+
+
+                <form action="/user/login" method="post">
+
+
+                   <h2>Login Here</h2>
+                    <input type="text" placeholder="username" name="username">
+                    <input type="password" placeholder="**********" name="password">
+                    <p>Don't Have an Account?<a href="/register">Register Here</a></p>
+                    <button type="submit">Login User</button>
+
+
+
+                </form>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <%- include('partials/footer') %>

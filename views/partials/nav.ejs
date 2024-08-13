@@ -1,0 +1,50 @@
+<nav> 
+<div id="Nav1"><h1>Hotel Booking</h1></div>
+
+<% if (!user ) { %>
+ 
+    <div id="Nav2"><a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/hotels">Hotels</a>
+          </div>
+
+
+<% }else{ %>
+    
+    <% if (user.role == 'admin') { %>
+        <div id="Nav2">
+            <a href="/admin">All Users</a>
+            
+              </div>
+    <% } else {%>
+        <div id="Nav2"><a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/hotels">Hotels</a>
+              </div>
+    
+        <% } %>
+    
+
+    <% } %>
+
+
+
+
+
+
+<div id="Nav3">
+
+    <% if (user) { %>
+   
+        <a href="/user/logout">Logout</a>
+    
+        <% }  else {%>
+
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+
+            <% } %>
+</div>
+  
+
+</nav>

@@ -1,0 +1,855 @@
+*
+{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+html,body
+{
+ height: 100%;
+ width: 100%;
+}
+
+
+
+
+
+.Main
+{
+  
+height: max-content;
+width: 100%;
+background-color: #39A7FF;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.Page1
+{
+  height: 80vmin;
+  width: 80%;
+  background-image: url(https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+
+}
+
+.Page
+{
+  height: 100vmin;
+  width: 80%;
+  background-image: url(https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+
+}
+
+
+
+
+
+
+.Box
+{
+  height: 10vmin;
+  width: 80vmax;
+  background-color:  #39A7FF;
+}
+
+
+.Page1 nav
+{
+  height: 3vmax;
+  width: 100%;
+ background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Page nav
+{
+  height: 3vmax;
+  width: 100%;
+ background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.overlay
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.289);
+  position: relative;
+}
+
+.overlap
+{
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: relative;
+ backdrop-filter: blur(20px);
+}
+
+#radio
+{
+  height: 5vmin;
+  width: 25vmax;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+#radio input
+{
+  height: 1vmax;
+  width: 1vmax;
+}
+
+#radio h2
+{
+  font-size: 1vmax;
+}
+
+
+
+
+nav div 
+{
+  height: 2vmax;
+  width: 20%;
+  /* background-color: red; */
+}
+
+#Nav2
+{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#Nav3
+{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#Nav1
+{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#Nav1 h1
+{
+  font-size: 1.5vmax;
+  color: rgba(0, 0, 0, 0.556);
+  font-family: "Montserrat", sans-serif;
+
+}
+
+
+nav a
+{
+  font-size: 1.2vmax;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+#head1
+{
+  font-size: 3vmax;
+height: 2vmax;
+width: 3vmax;
+color: white;
+text-transform: uppercase;
+font-family: "Montserrat", sans-serif;
+word-spacing: 1vmax;
+
+
+}
+
+.Page2
+{
+  height: 80vmin;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn
+{
+border: solid white;
+height: 3vmax;
+width: 7vmax;
+background: transparent;
+color: white;
+position: absolute;
+bottom: 12vmax;
+left: 12vmax;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+
+}
+
+.Box2
+{
+  height: 15vmax;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.Box2 h1
+{
+font-size: 2.5vmax;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 200;
+letter-spacing: 0.85vmax;
+}
+
+.Box2 p 
+{
+ 
+  font-weight: 100;
+  font-size: 1vmax;
+}
+
+.Box3
+{
+  height: 20vmax;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.084);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vw;
+  overflow-x: scroll;
+  border: solid rgba(0, 0, 0, 0.166);
+}
+
+
+
+
+.Box3 div
+{
+
+height: 18vmax;
+min-width: 16vmax;
+background-color: white;
+border: solid rgba(0, 0, 0, 0.07);
+
+}
+
+.Box3::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+
+
+
+#R1 div
+{
+background-color: white;
+height: 50%;
+width: 50%;
+}
+
+#R1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+  align-items: center;
+}
+
+#I1
+{
+  background-image: url(https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I2
+{
+  background-image: url(https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I3
+{
+  background-image: url(https://images.unsplash.com/photo-1698752160677-7e112b18e5a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I4
+{
+  background-image: url(https://images.unsplash.com/photo-1628870571248-4f5db428986c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I5
+{
+  background-image: url(https://images.unsplash.com/photo-1646821197275-17d02e7c1731?q=80&w=2056&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I6
+{
+  background-image: url(https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I7
+{
+  background-image: url(https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I8
+{
+  background-image: url(https://images.unsplash.com/photo-1477120128765-a0528148fed2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I9
+{
+  background-image: url(https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#I10
+{
+  background-image: url(https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#T1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+}
+
+#T1 h4 
+
+{
+font-size: 1vmax;  
+font-family: "Montserrat", sans-serif;
+}
+
+
+#T1 h5 
+
+{
+font-size: 1vmax;  
+font-family: "Montserrat", sans-serif;
+color: rgba(0, 0, 0, 0.503);
+}
+
+#T1 p 
+{
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1vmax;
+}
+
+#T1 a 
+{
+  text-decoration: none;
+  height: 2vmax;
+  width: 7vmax;
+ border: solid aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1vmax;
+  font-family: "Montserrat", sans-serif;
+ 
+
+}
+
+
+
+
+
+
+.Page3
+{
+  height: 80vmin;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.308);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Page3 div
+
+{
+height: 50vmin;
+width: 40%;
+/* background-color: aqua; */
+  
+
+}
+
+ video
+{
+height: 100%;
+width: 100%;
+
+}
+
+
+#B1
+{
+  
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+#B2
+{
+  /* background-color: red; */
+  height: 12vmax;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1.5vw;
+}
+
+#B2 h1
+{
+  font-size: 4vmax;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+}
+
+
+
+#B2 p
+{
+color: white;
+font-size: 1vmax;
+}
+
+#B2 a
+{
+  height: 3vmax;
+  width: 7vmax;
+  border: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  
+  
+}
+
+
+.Page4 div
+{
+  
+  height: 75vmin;
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Page4
+{
+  height: 80vmin;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.334);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.Page5
+{
+  height: 50vmin;
+  width: 80%;
+  background-color:rgba(0, 0, 0, 0.189);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+form
+{
+  height: 60vmin;
+  width: 80%;
+ display: flex;
+ flex-direction: column;
+ background-color: rgba(255, 255, 255, 0.375);
+ gap: 2vw;
+ align-items: center; 
+ justify-content: center;
+ gap: 1vw;
+ border-radius: 2vmax;
+ position: relative;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%,-50%);
+  
+
+}
+
+form input
+{
+  height: 6vmin;
+  width: 25vmax;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1vmax;
+  
+}
+
+
+.D2
+{
+  height: 75vmin;
+  width: 100%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.form h1
+{
+  font-size: 2vmax;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+
+}
+
+
+.overlap p
+{
+  font-size: 1vmax;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+
+.overlap a
+{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.997);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+
+
+.Page5 #L1
+{
+    height: 50vmin;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#L1 div
+{
+    background-color: transparent;
+    height: 40vmin;
+    width: 25%;
+    
+
+
+}
+
+#L1 #L2
+{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L2 div
+{
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L2 h6
+{
+    color: black;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#L2 p
+{
+    color: rgba(0, 0, 0, 0.327);
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+
+
+
+}
+
+#L3 h6
+{
+    color: black;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#L3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#L3 a
+{
+    height:5vmin;
+ width: 6vmax;
+ border: solid black;
+ color: black;
+ font-size: 0.8vmax;
+ font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ 
+}
+#L5
+{
+    display: flex;
+    height: 10vmax;
+    width: 10vmax;
+   justify-content: center;
+    align-items: center;
+    
+}
+
+form button
+{
+  height: 5vmin;
+  width: 7vmax;
+  border: solid black;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+#L5 h2
+{
+   color: rgba(0, 0, 0, 0.392);
+    font-size: 2vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#L5 img
+{
+    height: 20vmin;
+    width: 12vmax;
+}
+
+#L3 div
+{
+    width: 100%;
+    height: 4vmax;
+    background-color: transparent;
+    
+}
+
+#L3 #L6
+{
+    width: 10vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L6 img
+{
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+}
+
+#L9
+{
+    height: 2vmax;
+    width: 100%;
+    background-color: rgb(213, 209, 209);
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#L9 h6
+{
+    font-size: 0.8vmax;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.Box5
+{
+  height: 50vmin;
+  width: 90%;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  overflow-x: scroll;
+  backdrop-filter: blur(20px);
+
+}
+
+.Box5 div
+{
+  height: 30vmin;
+  min-width: 20vmax;
+  background-color: rgba(255, 255, 255, 0.337);
+  margin-left: 2vmax;
+  display: flex;
+  flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+border: solid black;
+}
+
+.Box5::-webkit-scrollbar
+{
+  display: none;
+}
+
+.Box5 h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vmax;
+}

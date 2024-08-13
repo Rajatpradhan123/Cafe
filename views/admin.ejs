@@ -1,0 +1,82 @@
+<%- include('partials/header') %>
+
+
+
+    <div class="Main">
+        <div class="Box"></div>
+        <div class="Page">
+
+
+
+            <div class="overlay"> <%- include('partials/nav') %>
+
+
+
+                    <div class="Box5">
+
+
+
+                       <% alluser.forEach(enquirey=> { %>
+                        <div>
+
+                            <h2>
+                                Name - <%= enquirey.name %>
+                            </h2>
+
+                            <h2>
+                               Email - <%= enquirey.email %>
+                            </h2>
+
+                            <h2>
+                               Contact- <%= enquirey.mobile %>
+                            </h2> 
+
+
+
+
+
+
+
+                        </div>
+                       <% }) %>
+
+
+
+                    </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <%- include('partials/footer') %>
